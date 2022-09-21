@@ -1,2 +1,4 @@
-console.log("hi");
-console.log("hillel")
+let admin;
+let name = "Іван";
+name = admin;
+alert(admin);
