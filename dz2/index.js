@@ -7,13 +7,11 @@
 // let div = numOne / numTwo;
 // alert(`${sub}; ${mult}; ${add}; ${div}`);
 
-
 // завдання 2 варіант 2
 // let a = Number(prompt("введіть число"));
 // let b = Number(prompt("введіть число"));
 // alert(`${a}-${b}=${a - b}; ${a}+${b}=${a+b}; ${a}/${b}=${a/b}; ${a}*${b}=${a*b}.`
 // );
-
 
 // завдання 3 варіант 1
 // let operator = prompt('Введіть оператор обчислення: /,+,*,-');
@@ -30,7 +28,6 @@
 // } else{
 //     alert("Не вірний оператор, спробуйте ще раз")
 // }
-
 
 // завдання 3 варіант 2
 // let operator = prompt("введіть оператор /,+,*,-");
@@ -61,8 +58,7 @@
 //     alert("Не вірний оператор");
 // }
 
-
-// завдання 4 
+// завдання 4
 // let numberOfHours = Number(prompt("Введіть кількість годин", 5));
 // let secondsInOneHour = 3600;
 // let result = numberOfHours * secondsInOneHour;
@@ -76,8 +72,6 @@
 //   alert("Введіть тільки число!");
 // }
 
-
-
 // завдання 5
 // let firstNum = Number(prompt("Введіть перше число", 2));
 // let secondNum = Number(prompt("Введіть друге число", 2));
@@ -89,4 +83,36 @@
 //   alert(
 //     `Упс! Помилка! Перевірте правильність вводу чисел (${firstNum}+${secondNum}+${thirdNum}).Спробуйте ще раз`
 //   );
+// }
+
+let numOrStr = prompt("input number or string");
+
+switch (true) {
+    case numOrStr === null:
+    console.log("Ви отменили");
+    break;
+    case numOrStr.trim()==="":
+    console.log("Empty String");
+    break;
+    case isNaN(+numOrStr):
+    console.log(" number is Ba_NaN");
+    break;
+  default:
+    console.log("ok");
+}
+
+// let numOrStr = prompt("input number or string");
+
+// switch (numOrStr) {
+//   case null:
+//     alert("Ви отменили");
+//     break;
+//   case "":
+//     alert("Empty String");
+//     break;
+//   case Number.isNaN(+numOrStr):
+//     alert(" number is Ba_NaN");
+//     break;
+//   default:
+//     alert("ok");
 // }
