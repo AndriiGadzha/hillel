@@ -88,10 +88,10 @@
 // }
 
 // -Дано натуральное число. Найти и вывести на страницу все его делители.
-// let num = 39;
+// let num = 40;
 // let res = "";
 // for (let i = 1; i <= num; i++) {
-//   if (num % i == 0) {
+//   if (num % i == 0 ) {
 //     res += i + " ";
 //   }
 // }
@@ -99,16 +99,32 @@
 
 // -Определить количество его четных делителей
 // let num = 40;
-// let res = "";
+// let res = 0;
 // for (let i = 1; i <= num; i++) {
 //   if (num % i === 0 && i % 2 == 0) {
-//     res += i ;
+//     res++;
 //   }
 // }
 // console.log(res);
-for (let i = 1; i <= 9; i++) {
-// console.log(i);{
-  for (let j = 1; j <= 3; j++) {
-    console.log(i);
-  }
-}
+
+
+// -Найти сумму его четных делителей
+// let num = 40;
+// let res = 0;
+// for (let i = 1; i <= num; i++) {
+//   if (num % i === 0 && i % 2 == 0) {
+//     res+= i;
+//   }
+// }
+// console.log(res);
+
+
+// -Напечатать полную таблицу умножения от 1 до 10
+// let i;
+// let k;
+// for (let i = 1; i <= 10; i++) {
+//   for (let k = 1; k <= 10; k++) {
+//     console.log(`${i} * ${k} = ${i * k} `);
+//   }
+//   console.log("_________");
+// }
