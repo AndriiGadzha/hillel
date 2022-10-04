@@ -25,7 +25,6 @@
 //   console.log(result);
 // }
 
-
 // -Найти сумму всех целых чисел от 1 до 15
 // let num = 15
 // let sum = num*(num+1)/2
@@ -38,7 +37,11 @@
 //     } return sum;
 // } console.log(sumNum(15));
 
-
+// let sum = 0;
+// for (let i = 1; i <= 15; i++) {
+//     sum += i;
+// }
+// console.log(sum);
 
 // -Найти произведение всех целых чисел от 15 до 35
 // let res = 1;
@@ -49,12 +52,38 @@
 
 // let i = 15;
 // let sum = 1;
-// while (i <= 35) {  
+// while (i <= 35) {
 //   sum *= i;
 //   i++;
 // }
 // console.log(sum);
 
-
-
 // -Найти среднее арифметическое всех целых чисел от 1 до 500
+// let sum = 0;
+// for (let i = 1; i <= 500; i++) {
+//     sum += i;
+// }
+// console.log(sum/500);
+
+// -Вывести сумму только четных чисел в диапазоне от 30 до 80
+// let sum = 0;
+// for (let i = 30; i <= 80; i = i + 2) {
+//   sum += i;
+// }
+// console.log(sum);
+
+// let i = 30;
+// let sum = 0;
+// while (i <= 80) {
+//   sum += i;
+//   i=i+2
+// }
+// console.log(sum);
+
+// -Вывести все числа в диапазоне от 100 до 200 кратные 3
+// for (let i = 100; i <= 200; i++) {
+//   if (i % 3 === 0) {
+//     console.log(i);
+//   }
+// }
+
