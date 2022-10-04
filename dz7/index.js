@@ -87,3 +87,28 @@
 //   }
 // }
 
+// -Дано натуральное число. Найти и вывести на страницу все его делители.
+// let num = 39;
+// let res = "";
+// for (let i = 1; i <= num; i++) {
+//   if (num % i == 0) {
+//     res += i + " ";
+//   }
+// }
+// console.log(res);
+
+// -Определить количество его четных делителей
+// let num = 40;
+// let res = "";
+// for (let i = 1; i <= num; i++) {
+//   if (num % i === 0 && i % 2 == 0) {
+//     res += i ;
+//   }
+// }
+// console.log(res);
+for (let i = 1; i <= 9; i++) {
+// console.log(i);{
+  for (let j = 1; j <= 3; j++) {
+    console.log(i);
+  }
+}
