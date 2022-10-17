@@ -85,21 +85,21 @@
 //   );
 // }
 
-let numOrStr = prompt("input number or string");
+// let numOrStr = prompt("input number or string");
 
-switch (true) {
-    case numOrStr === null:
-    console.log("Ви отменили");
-    break;
-    case numOrStr.trim()==="":
-    console.log("Empty String");
-    break;
-    case isNaN(+numOrStr):
-    console.log(" number is Ba_NaN");
-    break;
-  default:
-    console.log("ok");
-}
+// switch (true) {
+//     case numOrStr === null:
+//     console.log("Ви отменили");
+//     break;
+//     case numOrStr.trim()==="":
+//     console.log("Empty String");
+//     break;
+//     case isNaN(+numOrStr):
+//     console.log(" number is Ba_NaN");
+//     break;
+//   default:
+//     console.log("ok");
+// }
 
 // let numOrStr = prompt("input number or string");
 
@@ -116,3 +116,4 @@ switch (true) {
 //   default:
 //     alert("ok");
 // }
+
